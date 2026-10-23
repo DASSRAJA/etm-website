@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETM | Token Information</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080808;
+      color: #f5f0e5;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 22px 8%;
+      border-bottom: 1px solid #5b471c;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      color: #e7c56b;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #e9dfc5;
+      text-decoration: none;
+      margin-left: 16px;
+      font-size: 14px;
+    }
+
+    nav a:hover { color: #f5cc65; }
+
+    main {
+      max-width: 950px;
+      margin: auto;
+      padding: 55px 22px 70px;
+    }
+
+    .eyebrow {
+      color: #d7b65c;
+      letter-spacing: 3px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { color: #f0d17a; }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 52px);
+      line-height: 1.2;
+    }
+
+    .intro { color: #c9c0ad; }
+
+    .panel {
+      border: 1px solid #51401c;
+      background: #11100d;
+      border-radius: 8px;
+      padding: 24px;
+      margin: 24px 0;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 13px 0;
+      border-bottom: 1px solid #30291b;
+    }
+
+    .row:last-child { border-bottom: none; }
+
+    .label { color: #aaa18e; }
+    .value { color: #f0d17a; text-align: right; }
+
+    .notice {
+      color: #c9c0ad;
+      font-size: 14px;
+    }
+
+    .back {
+      display: inline-block;
+      border: 1px solid #d8b75e;
+      border-radius: 4px;
+      padding: 10px 18px;
+      color: #f0d17a;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 22px;
+      color: #8e8779;
+      border-top: 1px solid #332a18;
+      font-size: 12px;
+    }
+
+    @media (max-width: 550px) {
+      header { justify-content: center; }
+      nav a { margin: 0 6px; }
+      .row { flex-direction: column; gap: 3px; }
+      .value { text-align: left; overflow-wrap: anywhere; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">ETM | EVER TOKEN MONEY</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="token.html">Token</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="eyebrow">Transparency First</div>
+    <h1>ETM Token Information</h1>
+
+    <p class="intro">
+      This page presents the intended technical details of Ever Token Money.
+      Network deployment and public availability must be verified separately.
+    </p>
+
+    <section class="panel">
+      <h2>Token Details</h2>
+
+      <div class="row">
+        <span class="label">Token Name</span>
+        <span class="value">Ever Token Money</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Token Symbol</span>
+        <span class="value">ETM</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Initial Supply</span>
+        <span class="value">100,000,000 ETM</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Decimal Places</span>
+        <span class="value">18</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Supply Model</span>
+        <span class="value">Fixed initial supply; no public mint function</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Development Status</span>
+        <span class="value">Early-stage project</span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Our Approach</h2>
+      <p class="notice">
+        We aim to develop ETM responsibly, with emphasis on practical utility,
+        transparent information and appropriate testing before any public launch.
+      </p>
+      <p class="notice">
+        The token contract has passed basic project tests. This is not a
+        professional security audit, and it does not establish that the token
+        is deployed or ready for public use.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Important Notice</h2>
+      <p class="notice">
+        ETM is not presented here as a guaranteed investment. No profit,
+        market price, exchange listing or future value is promised. Digital
+        assets involve risk. Please verify official contract and network
+        details before interacting with any token.
+      </p>
+    </section>
+
+    <a class="back" href="index.html">← Return to Home</a>
+  </main>
+
+  <footer>
+    © 2026 Ever Token Money (ETM). Information may change as development progresses.
+  </footer>
+</body>
+</html>
